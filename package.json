@@ -1,6 +1,6 @@
 {
   "name": "@client.jar/yapper.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript library for Yapper bots (Unofficial)",
   "type": "module",
   "main": "./dist/index.js",
