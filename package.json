@@ -1,0 +1,41 @@
+{
+  "name": "@client.jar/yapper.js",
+  "version": "1.0.0",
+  "description": "A JavaScript library for Yapper bots (Unofficial)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node tests/smoke.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "yapper",
+    "bots",
+    "api"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "ws": "^8.22.0"
+  }
+}
