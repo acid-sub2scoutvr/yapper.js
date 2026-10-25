@@ -16,6 +16,9 @@
     "README.md",
     "LICENSE"
   ],
+  "repository": { "type": "git", "url": "git+https://github.com/acid-sub2scoutvr/yapper.js.git" },
+  "bugs": { "url": "https://github.com/acid-sub2scoutvr/yapper.js/issues" },
+  "homepage": "https://github.com/acid-sub2scoutvr/yapper.js#readme",
   "engines": {
     "node": ">=18"
   },
